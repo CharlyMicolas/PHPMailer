@@ -1,0 +1,113 @@
+body {
+    background: #232C4E;
+    font-family:calibri;
+}
+
+.form-style-2{
+    max-width: 500px;
+    padding: 20px 12px 10px 20px;
+    font: 13px Arial, Helvetica, sans-serif;
+}
+.form-style-2-heading{
+    font-weight: bold;
+    font-style: italic;
+    border-bottom: 2px solid #ddd;
+    margin-bottom: 20px;
+    font-size: 15px;
+    padding-bottom: 3px;
+}
+.form-style-2 label{
+    display: block;
+    margin: 0px 0px 15px 0px;
+}
+.form-style-2 label > span{
+    width: 100px;
+    font-weight: bold;
+    float: left;
+    padding-top: 8px;
+    padding-right: 5px;
+}
+
+.form-style-2 span.required{
+    color:red;
+}
+
+#container{
+    border: solid gray 1px;
+    width: 30%;
+    border-radius: 5px;
+    margin:100px auto;
+    background: white;
+    padding: 50px;
+    font: 13px Arial, Helvetica, sans-serif;
+}
+
+div {
+    margin-bottom: 5px;
+}
+
+.val_error{
+    color: #FF1F1F;
+}
+
+.fieldFullname,
+.fieldCname,
+.fieldJobtitle,
+.fieldEmail,
+.fieldTelpNum,
+.fieldIndustri:focus{
+    border: 1px solid #0C0;
+}
+
+.fieldFullname,
+.fieldCname,
+.fieldJobtitle,
+.fieldEmail,
+.fieldTelpNum,
+.fieldIndustri{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border: 1px solid #C2C2C2;
+    box-shadow: 1px 1px 4px #EBEBEB;
+    -moz-box-shadow: 1px 1px 4px #EBEBEB;
+    -webkit-box-shadow: 1px 1px 4px #EBEBEB;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    padding: 7px;
+    outline: none;
+}
+
+#container {width:300px; margin:0 auto;}
+
+/* Nicely lines up the labels. */
+form label {display:inline-block; width:140px;}
+
+/* You could add a class to all the input boxes instead, if you like. That would be safer, and more backwards-compatible */
+form input[type="text"],
+form input[type="password"],
+form input[type="email"] {width:160px;}
+
+form .line {clear:both;}
+form .line.submit {text-align:right;}
+
+.btn-primary {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+} /* Blue */
+
+.btn-reset {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+} /* Black */
+
+.btn-primary:hover {
+    background-color: #008CBA;
+    color: #4CAF50;
+}
+
+.btn-reset:hover {
+    background-color: #555555;
+    color: #4CAF50;
+}
